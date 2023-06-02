@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -131,
-    "scrollLeft": -435,
+    "scrollTop": -134,
+    "scrollLeft": -443,
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -403,29 +403,6 @@
         "comment": "자동차이름",
         "columns": [
           {
-            "name": "CARS_NAME",
-            "comment": "자동차이름",
-            "dataType": "VARCHAR",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 82.9072265625,
-              "widthComment": 67,
-              "widthDataType": 64.6005859375,
-              "widthDefault": 60
-            },
-            "id": "af25d5d2-d9d2-46dc-87c6-cd9a91fae8f2"
-          },
-          {
             "name": "CARS_BRAND_ID",
             "comment": "유니크_ID",
             "dataType": "VARCHAR",
@@ -474,9 +451,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1151,
-          "top": 302,
-          "zIndex": 134,
+          "left": 1196,
+          "top": 479.5,
+          "zIndex": 145,
           "widthName": 82.9072265625,
           "widthComment": 67
         },
@@ -600,8 +577,8 @@
           "columnIds": [
             "9c4e3972-fdd0-4536-9847-449f09c158d1"
           ],
-          "x": 1151,
-          "y": 334.625,
+          "x": 1196,
+          "y": 507,
           "direction": "left"
         },
         "constraintName": "fk_cars_brand_to_cars_name",
@@ -617,8 +594,8 @@
           "columnIds": [
             "5e3702b0-fa93-43e5-abc8-1235b573ff1c"
           ],
-          "x": 1151,
-          "y": 399.875,
+          "x": 1196,
+          "y": 562,
           "direction": "left"
         },
         "end": {
