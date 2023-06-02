@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -1,
+    "scrollTop": 0,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
@@ -199,13 +199,36 @@
               "widthDefault": 60
             },
             "id": "79b50945-ca56-48f4-98df-1d336e9f7660"
+          },
+          {
+            "name": "CARS_OPTION_ID",
+            "comment": "자동차_옵션_ID",
+            "dataType": "VARCHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 115.41357421875,
+              "widthComment": 94.4599609375,
+              "widthDataType": 64.6005859375,
+              "widthDefault": 60
+            },
+            "id": "4da51170-a14a-4f87-823a-008290dae146"
           }
         ],
         "ui": {
           "active": false,
           "left": 29,
           "top": 337,
-          "zIndex": 24,
+          "zIndex": 30,
           "widthName": 95.18359375,
           "widthComment": 74.22998046875
         },
@@ -216,7 +239,20 @@
     "indexes": []
   },
   "memo": {
-    "memos": []
+    "memos": [
+      {
+        "value": "자동차에 대한 정보\n",
+        "ui": {
+          "active": false,
+          "left": 438,
+          "top": 49,
+          "zIndex": 34,
+          "width": 127,
+          "height": 100
+        },
+        "id": "d32aeceb-1f92-4044-b4de-95d769630804"
+      }
+    ]
   },
   "relationship": {
     "relationships": [
@@ -238,7 +274,7 @@
           "columnIds": [
             "79b50945-ca56-48f4-98df-1d336e9f7660"
           ],
-          "x": 211.809814453125,
+          "x": 249.737060546875,
           "y": 337,
           "direction": "top"
         },
