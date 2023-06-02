@@ -260,7 +260,7 @@
       },
       {
         "name": "MEMBERS_EMAIL",
-        "comment": "이메일",
+        "comment": "회원_이메일",
         "columns": [
           {
             "name": "EMAIL",
@@ -313,9 +313,9 @@
           "active": false,
           "left": 420,
           "top": 432,
-          "zIndex": 78,
+          "zIndex": 80,
           "widthName": 113.97265625,
-          "widthComment": 60
+          "widthComment": 74.22998046875
         },
         "visible": true,
         "id": "7fda82e3-56c3-4083-9aa6-1ce06d1094c8"
