@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -403,
-    "scrollLeft": -482,
-    "zoomLevel": 1,
+    "scrollTop": -636,
+    "scrollLeft": -991,
+    "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -315,13 +315,13 @@
             "default": "",
             "option": {
               "autoIncrement": false,
-              "primaryKey": false,
+              "primaryKey": true,
               "unique": false,
               "notNull": true
             },
             "ui": {
               "active": false,
-              "pk": false,
+              "pk": true,
               "fk": false,
               "pfk": false,
               "widthName": 135.6435546875,
@@ -336,7 +336,7 @@
           "active": false,
           "left": 1413.75,
           "top": 919.25,
-          "zIndex": 24,
+          "zIndex": 42,
           "widthName": 115.41357421875,
           "widthComment": 74.22998046875
         },
