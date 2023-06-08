@@ -10,4 +10,4 @@ FROM ( -- 최대값을 얻기 위한 COUNT 사용
 
 -- Number of Records: 1
 -- MAX_CNT	NAME
--- 156		Davolio
+-- 156		Peacock
